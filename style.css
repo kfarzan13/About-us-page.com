@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: slategray;
+	background-image: url('images/bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Combo', cursive;
+	background-blend-mode: darken;
+}
+
+.heading {
+	text-align: center;
+}
+
+.heading h1{
+	font-size: 50px;
+	color: #fff;
+	opacity: 0.8;
+	text-align: center;
+	margin-top: 80px;
+	text-shadow: 2px 2px gray;
+}
+
+.image img{
+	float: inherit;
+	margin-top: 60px;
+	margin-bottom: 40px;
+	height: 200px;
+	width: 200px;
+	border: 2px solid rgba(80, 0, 0, 0.3);
+	border-radius: 50%;
+
+}
+
+p{
+	color: black;
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 35px;
+	margin-bottom: 20px;
+	opacity: 0.9;
+}
+
+.button{
+	display: inline-block;
+	padding: 15px 30px;
+	background: #18366b;
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 10px;
+	transition: background 0.5s;
+	margin-top: 0;
+	opacity: 0.8;
+}
+
+.button:hover{
+	color: black;
+}
